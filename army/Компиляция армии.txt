@@ -1,0 +1,30 @@
+
+g++ -c unit/Unit.cpp
+g++ -c state/State.cpp
+g++ -c state/RogueState.cpp
+g++ -c state/BerserkerState.cpp
+g++ -c state/VampireState.cpp
+g++ -c state/WolfState.cpp
+g++ -c state/WizardState.cpp
+g++ -c state/HealerState.cpp
+g++ -c state/PriestState.cpp
+
+g++ -c pUnit/Soldier.cpp
+g++ -c pUnit/Rogue.cpp
+g++ -c pUnit/Berserker.cpp
+g++ -c pUnit/Vampire.cpp
+g++ -c pUnit/Werewolf.cpp
+
+g++ -c mUnit/Demon.cpp
+g++ -c mUnit/Wizard.cpp
+g++ -c mUnit/Healer.cpp
+g++ -c mUnit/Priest.cpp
+g++ -c mUnit/Warlock.cpp
+g++ -c mUnit/Necromancer.cpp
+
+g++ -c interphace/Observer.cpp
+g++ -c interphace/Observable.cpp
+
+g++ -c main.cpp
+
+g++ *.o
