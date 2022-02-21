@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
-#include <vector>
 
 #define MAX 100
 
